@@ -52,3 +52,15 @@ const finalGrade = (exam, projects) => {
 }
 
 */
+//Complete the function that accepts a string parameter, 
+// reverses each word in the string. 
+//All spaces in the string should be retained.
+
+
+
+function rev(str) {
+    return str
+    .split(' ')
+    .map(word => word.spit('').reverse().join(''))
+    .join(' ')
+}
